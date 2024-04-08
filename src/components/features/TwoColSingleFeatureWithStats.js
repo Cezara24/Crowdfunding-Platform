@@ -25,7 +25,7 @@ const Description = tw.p`text-center md:text-left text-sm md:text-base lg:text-l
 
 const Statistics = tw.div`mt-6 lg:mt-8 xl:mt-16 flex flex-wrap`
 const Statistic = tw.div`text-lg sm:text-2xl lg:text-3xl w-1/2 mt-4 lg:mt-10 text-center md:text-left`
-const Value = tw.div`font-bold text-primary-500`
+const Value = tw.div`font-bold text-orange-500`
 const Key = tw.div`font-medium text-gray-700`
 
 export default ({textOnLeft = false}) => {
@@ -37,11 +37,11 @@ export default ({textOnLeft = false}) => {
       value: "98%",
     },
     {
-      key: "proiecte Finanțate",
+      key: "proiecte finanțate",
       value: "100+",
     },
     {
-      key: "Contribuitori Activi",
+      key: "contribuitori activi",
       value: "10K+",
     },
     {
@@ -58,7 +58,7 @@ export default ({textOnLeft = false}) => {
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
-            <Heading>Impactul Tău Începe Aici</Heading>
+            <Heading>Impactul tău începe aici</Heading>
             <Description>Bloom este platforma unde ideile inovatoare întâlnesc sprijinul comunității. Fie că dorești să susții proiecte cu impact sau să-ți aduci visul la realitate, aici e locul unde totul devine posibil.</Description>
             <Statistics>
               {statistics.map((statistic, index) => (

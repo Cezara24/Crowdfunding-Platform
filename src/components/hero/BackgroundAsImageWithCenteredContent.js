@@ -29,7 +29,7 @@ const Container = styled.div`
   background-image: url(${painter});
 `;
 
-const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;
+const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-50`;
 
 const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
 const Content = tw.div`w-3/6 px-4 flex flex-1 flex-col justify-center items-center`;
