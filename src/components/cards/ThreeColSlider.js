@@ -106,7 +106,7 @@ export default () => {
       imageSrc: singer,
       profileSrc: kamauuProfilePhoto,
       title: "KAMAUU",
-      description: `Artist, rapper, poet și gânditor, împletesc fire de rap, reggae, soul și chiar doo wop. "Nu sunt profesor. Sunt doar un coleg de clasă. Nu am un plan de lecție, dar am câteva note pe care sper să le împărtășesc în cântecele mele."`,
+      description: `Artist, rapper, poet și gânditor, împletește fire de rap, reggae, soul și chiar doo wop. "Nu sunt profesor. Sunt doar un coleg de clasă. Nu am un plan de lecție, dar am câteva note pe care sper să le împărtășesc în cântecele mele."`,
       locationText: "Mbonisi Kwame Agyeman",
       rating: "158K",
     },
