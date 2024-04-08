@@ -17,12 +17,13 @@ export default () => (
     <Hero />
     
     <MainFeature />
+    
     <SliderCard />
 
-    <GetStarted />
 
     <Blog />
 
+    <GetStarted />
     <SubscribeNewsLetterForm />
     <Footer />
 

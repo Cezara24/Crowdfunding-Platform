@@ -2,14 +2,14 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import {Container as ContainerBase } from "components/misc/Layouts.js"
-import logo from "../../images/logo.svg";
-import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
-import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
-import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
+import logo from "images/logo.png";
+import { ReactComponent as FacebookIcon } from "images/facebook-icon.svg";
+import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
+import { ReactComponent as YoutubeIcon } from "images/youtube-icon.svg";
 
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100 -mx-8 -mb-8`
-const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
+const Content = tw.div`max-w-screen-xl mx-auto py-8`;
 
 const Row = tw.div`flex items-center justify-center flex-col px-8`
 
@@ -36,14 +36,14 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>Treact</LogoText>
+            <LogoText>ImpactBloom</LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">Home</Link>
-            <Link href="#">About</Link>
-            <Link href="#">Contact Us</Link>
-            <Link href="#">Blog</Link>
-            <Link href="#">Reviews</Link>
+            <Link href="#">Despre</Link>
+            <Link href="#">Cele mai populare</Link>
+            <Link href="#">Proiecte noi</Link>
+            <Link href="#">Alătură-te</Link>
+            <Link href="#">Contact</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
@@ -57,7 +57,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, Treact Inc. All Rights Reserved.
+            &copy; Copyright 2024, InpactBloom. All Rights Reserved.
           </CopyrightText>
         </Row>
       </Content>
